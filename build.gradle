@@ -19,7 +19,13 @@ jar {
 	baseName = 'wildsnake-feeder'
 	version = '0.0.1-SNAPSHOT'
 }
+applicationName = "wildsnake-feeder"
 
+distributions{
+    main{
+        baseName = 'wildsnake-feeder'
+    }
+}
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
