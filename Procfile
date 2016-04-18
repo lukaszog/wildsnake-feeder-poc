@@ -1,2 +1,2 @@
 
-worker: ./build/install/wildsnake-feeder/bin/wildsnake-feeder --spring.profiles.active=prod
+worker: ./build/install/wildsnake-feeder-poc/bin/wildsnake-feeder-poc --spring.profiles.active=prod
